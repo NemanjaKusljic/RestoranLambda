@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lambda</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"><img src="images/logo1.png" alt="Logo"></a>
+        <nav class="header__nav">
+            <a href="#" class="header__link">Home</a>
+            <a href="#" class="header__link">About</a>
+            <a href="#" class="header__link">Ingredients</a>
+            <a href="#" class="header__link">Menu</a>
+            <a href="#" class="header__link">Reviews</a>
+            <a href="#" class="header__link">Reservations</a>
+        </nav>
+        <div class="header__icons">
+            <a href="#"><i class="icon-twitter"></i></a>
+            <a href="#"><i class="icon-facebook"></i></a>
+            <a href="#"><i class="icon-youtube-play"></i></a>
+        </div>
+        <button class="burger" type="button">
+            <span class="line__top"></span>
+            <span class="line__middle"></span>
+            <span class="line__bottom"></span>
+        </button>
+    </header>
+    <section class="hero" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(18,247,186,0) 15%), url('images/hero.png')">
+        <div class="hero__content">
+            <h1 class="hero__content__heading">the right ingredients for the right food</h1>
+            <div class="hero__content__decoration"><img src="images/Decoration.png" alt="decoration"></div>
+            <div class="hero__content__cta">
+                <a href="#" class="hero__content__cta-btn hero__content__cta-btn--dark">Book a table</a>
+                <a href="#" class="hero__content__cta-btn hero__content__cta-btn--light">See the menu</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" style="background-image: url('images/background.png')">
+        <div class="about__content">
+            <h2 class="about__content__heading">Just the right food</h2>
+            <div class="about__content__decoration"><img src="images/Divider.png" alt="decoration"></div>
+            <p class="about__content__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Molestias ab earum vero aliquam assumenda unde, optio nemo placeat quaerat id quidem 
+                officiis iste deleniti fuga, soluta minus modi est consequatur exercitationem ipsa. 
+                Quod maxime iste eos molestias delectus eaque harum hic aspernatur sint quas mollitia, 
+                expedita at, vitae provident nesciunt.</p>
+            <div class="about__content__cook"><img src="images/cook.png" alt="cook"></div>
+        </div>
+        <div class="about__plate" style="background-image: url('images/dish.png')"></div>
+    </section>
+    <section class="ingredients" style="background-image: url('images/bg-ing.png')">
+        <div class="ingredients__content">
+            <h3 class="ingredients__content__heading">Fine ingredients</h3>
+            <div class="ingredients__content__decoration"><img src="images/deco.png" alt="decoration"></div>
+            <p class="ingredients__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius 
+                placeat quae officiis deleniti hic delectus voluptate et dignissimos, consectetur, earum rem 
+                corrupti fuga provident aut laboriosam recusandae accusamus. Inventore quaerat iusto minu
+                s corporis impedit excepturi aliquam. Maxime, optio tempore. Magni possimus dolore veritatis
+                 autem reprehenderit?</p>
+            <div class="ingredients__content__imgs">
+                <div class="ingredients__content__imgs-image" style="background-image: url('images/img1.png')"></div>
+                <div class="ingredients__content__imgs-image" style="background-image: url('images/image_2.png')"></div>
+                <div class="ingredients__content__imgs-image" style="background-image: url('images/image_3.png')"></div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" style="background-image: url('images/background.png')">
+        <div class="menu__accordion">
+            <div class="menu__accordion__item">
+                <button type="button" class="menu__accordion-button menu__accordion-button--down">Appetisers</button>
+                <div class="menu__accordion__decoration"><img src="images/Divider.png" alt="decoration"></div>
+                <div class="menu__accordion-panel">
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Tzatsiki</span> <span>$3.99</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Aubergine Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Aubergine Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__accordion__item">
+                <button type="button" class="menu__accordion-button menu__accordion-button--down">Salads</button>
+                <div class="menu__accordion__decoration"><img src="images/Divider.png" alt="decoration"></div>
+                <div class="menu__accordion-panel">
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Olive special</span> <span>$3.99</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe menu__accordion__recipe--special">
+                        <h4 class="menu__accordion__recipe__heading"><span>Greek Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Aubergine Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__accordion__item">
+                <button type="button" class="menu__accordion-button menu__accordion-button--down">Starters</button>
+                <div class="menu__accordion__decoration"><img src="images/Divider.png" alt="decoration"></div>
+                <div class="menu__accordion-panel">
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Haloumi</span> <span>$3.99</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Greek Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__accordion__item">
+                <button type="button" class="menu__accordion-button menu__accordion-button--down">Main Dishes</button>
+                <div class="menu__accordion__decoration"><img src="images/Divider.png" alt="decoration"></div>
+                <div class="menu__accordion-panel">
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Haloumi</span> <span>$3.99</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe menu__accordion__recipe--special">
+                        <h4 class="menu__accordion__recipe__heading"><span>Roast Lamb</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Greek Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="menu__accordion__recipe">
+                        <h4 class="menu__accordion__recipe__heading"><span>Greek Salad</span> <span>$5.50</span></h4>
+                        <p class="menu__accordion__recipe__body">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" style="background-image: url('images/bg-rev.png')">
+        <div class="reviews__content">
+            <h4 class="reviews__content__heading">Guest Reviews</h4>
+            <div class="reviews__content__decoration"><img src="images/deco.png" alt="decoration"></div>
+            <p class="reviews__content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Soluta quam ut in? Ipsum necessitatibus nesciunt consequatur ab ad non numquam deleniti
+                 cum earum suscipit aperiam porro eius harum repellendus, voluptates quas animi eum 
+                 temporibus nobis placeat sint quia ullam? Repudiandae repellendus ea laborum
+                  culpa exercitationem.</p> 
+        </div>
+    </section>
+
+    <section class="reservations" style="background-image: url('images/background.png')">
+        <div class="reservations__side"></div>
+        <div class="reservations__main">
+            <div class="reservations__main__content">
+                <h5 class="reservations__main__content__heading">Just the righ food</h5>
+                <div class="reservations__main__content__decoration"><img src="images/Divider.png" alt="decoration"></div>
+                <p class="reservations__main__content__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque 
+                    perferendis fugiat beatae excepturi illum eum aspernatur architecto maxime hic sequi delectus 
+                    reiciendis ratione cupiditate eligendi in voluptatibus omnis, libero a.
+                     Voluptatibus ipsum excepturi numquam fugit.</p>
+            </div>
+            <form action="#" method="post" class="reservations__main__form">
+                <label for="name">Name</label>
+                <input type="text" name="nameInput" id="name" placeholder="your name*">
+                <label for="email">Email</label>
+                <input type="email" name="mailInput" id="email" placeholder="your email*">
+                <label for="date">Date</label>
+                <input type="date" name="dateInput" id="date" placeholder="date*">
+                <label for="numbersInput">Party number</label>
+                <input list="numbers" name="invitations" id="numbersInput" placeholder="party number">
+                <datalist id="numbers">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                  </datalist>
+                <button type="submit">Book now!</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
